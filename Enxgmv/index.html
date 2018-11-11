@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Enxgmv</title>
+</head>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        color: rgb(206, 206, 206);
+        font-family: monospace;
+    }
+
+    .flex-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    main{
+        background-color: rgb(27, 27, 27);
+        height: 100vh;
+        width: 100vw;
+        font-size: 20px;
+    }
+
+    @keyframes showStuffs {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+    }
+
+    .content{
+        animation: showStuffs 3s ease-in-out;
+        height: 100%;
+        width: 100%;
+    }
+
+    #key{
+        background-color: transparent;
+        border: 0.5px solid rgba(4, 63, 255, 0.81);
+        font-size: 24px;
+        color: antiquewhite;
+        padding: 5px 15px;
+        margin: 20px;
+        text-align: center;
+    }
+
+</style>
+
+<body>
+    <main class="flex-center">
+        <div class="content flex-center">
+            <label for="key">KEY</label>
+            <input type="password" id="key">
+        </div>
+    </main>
+</body>
+
+</html>
