@@ -25,13 +25,16 @@ main{
 
 .content{
     animation: showStuffs 3s ease-in-out;
-    height: 100%;
-    width: 100%;
 }
 
 @keyframes showStuffs {
     0%{opacity: 0;}
     100%{opacity: 1;}
+}
+
+@keyframes hideStuffs {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
 }
 
 @keyframes rgbColors {
@@ -59,3 +62,14 @@ main{
     outline: none;
 }
 
+.hideSlow{
+    animation: hideStuffs 1s linear;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
