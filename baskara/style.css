@@ -16,6 +16,7 @@ body{
 
 h2{
     padding: 20px 10px 10px;
+    text-align: center;
 }
 
 .do{
@@ -25,11 +26,11 @@ h2{
     border-radius: 10px;
     box-shadow: #000 1px 1px 3px;
     color: #fff;
-    cursor:     ;
+    cursor: pointer;
 }
 
 #result{
-    background-color: green;
+    background-color: #0d610d;
     color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -46,6 +47,9 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px 25px;
+    background-color: #fff;
+    box-shadow: #000 1px 1px 7px 0px;
 }
 
 .input-number{

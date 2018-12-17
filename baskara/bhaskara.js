@@ -1,11 +1,4 @@
-var a = document.querySelector("#a").nodeValue;
-var b = document.querySelector("#b").nodeValue;
-var c = document.querySelector("#c").nodeValue;
-// var b = -5;
-// var c = 6;
-
 document.querySelector(".do").addEventListener("click", function () {
-    console.log("clicou")
     var a = document.querySelector("#a").value;
     var b = document.querySelector("#b").value;
     var c = document.querySelector("#c").value;
