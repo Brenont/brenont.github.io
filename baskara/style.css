@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("../../../../Wallpapers/back.svg");
+    background-image: url("bg.svg");
     display: flex;
     justify-content: center;
     align-items: center;
