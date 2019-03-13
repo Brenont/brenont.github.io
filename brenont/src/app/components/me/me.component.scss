@@ -1,0 +1,14 @@
+@import '../../../styles.scss';
+
+.container{
+  .card{
+    max-width: 550px;
+    @extend %flex-center;
+
+    img{
+      max-width: 200px;
+      height: auto;
+      border-radius: 100%;
+    }
+  }
+}
