@@ -7,7 +7,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  constructor() { }
+  public skills : Array<any>;
+
+  constructor() {
+    this.skills = [{
+      name: "HTML",
+      value: "65%",
+      color: "orange"
+    },{
+      name: "HTML",
+      value: "25%",
+      color: "orange"
+    },{
+      name: "HTML",
+      value: "45%",
+      color: "orange"
+    }
+  ]
+   }
 
   ngOnInit() {
   }
