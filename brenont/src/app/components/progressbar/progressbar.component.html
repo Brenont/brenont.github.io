@@ -1,7 +1,12 @@
 <label for="Html" class="pl-3">{{name}}</label>
 <div class="progress">
-  <div class="progress-bar progress-bar-striped" role="progressbar"
+  <div class="progress-bar progress-bar-animated"
+  on-mouseover='progressOver=true'
+  (mouseleave)="progressOver=false"
+  [ngClass]="{'progress-bar-striped': progressOver}"
+  role="progressbar"
   [style.width]="value"
   [style.background-color]="color"
-    aria-valuemin="0" aria-valuemax="100">{{value}}</div>
+  aria-valuemin="0"
+  aria-valuemax="100">{{value}}</div>
 </div>

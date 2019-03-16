@@ -4,11 +4,23 @@
   .card{
     max-width: 550px;
     @extend %flex-center;
+    // border-color: #0da394;
+    border-color: transparent;
 
     img{
       max-width: 200px;
       height: auto;
       border-radius: 100%;
+    }
+  }
+}
+
+@media(max-width:768px){
+  .container{
+    .card{
+      img{
+        max-width: 150px;
+      }
     }
   }
 }

@@ -13,36 +13,37 @@ export class SkillsComponent implements OnInit {
     this.skills = [{
       name: "Javascript",
       value: "60%",
-      color: "#F7DF1E"
-    },{
-      name: "Angular",
-      value: "50%",
-      color: "#DB3035"
-    },
-    {
-      name: "Ionic",
-      value: "35%",
-      color: "#4887F7"
+      color: "#0da394"
     },
     {
       name: "Html",
       value: "75%",
-      color: "#E44D26"
+      color: "#0da394"
+    },
+    {
+      name: "Angular",
+      value: "50%",
+      color: "#0da394"
+    },
+    {
+      name: "Ionic",
+      value: "35%",
+      color: "#0da394"
     },
     {
       name: "Css",
       value: "60%",
-      color: "orange"
-    },
-    {
-      name: "Sass",
-      value: "50%",
-      color: "#C76494"
+      color: "#0da394"
     },
     {
       name: "Jquery",
       value: "45%",
-      color: "#1D74A7"
+      color: "#0da394"
+    },
+    {
+      name: "Sass",
+      value: "50%",
+      color: "#0da394"
     },
   ]
    }

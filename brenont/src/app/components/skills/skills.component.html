@@ -1,7 +1,10 @@
 <section class="pt-3 pb-3">
-  <h2 class="pb-3">SKILLS</h2>
+  <div class="pb-3 pl-3">
+    <h2>SKILLS</h2>
+    <div class="text-border"></div>
+  </div>
 
-  <div *ngFor="let skill of skills">
+  <div class="m-3" *ngFor="let skill of skills">
     <app-progressbar name="{{skill.name}}" value="{{skill.value}}" color="{{skill.color}}"></app-progressbar>
   </div>
 

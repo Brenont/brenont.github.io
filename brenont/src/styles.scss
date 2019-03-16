@@ -10,3 +10,15 @@
 .container {
   @extend %flex-center;
 }
+
+.shadow{
+  box-shadow: #1d1d1d 1px 1px 3px;
+}
+
+.text-border{
+  width: 8%;
+  min-width: 30px;
+  max-width: 80px;
+  height: 4px;
+  background-color: #0da394;
+}

@@ -11,6 +11,8 @@ export class ProgressbarComponent implements OnInit {
   @Input() value: string;
   @Input() color: string;
 
+  public progressOver = false;
+
   constructor() { }
 
   ngOnInit() {
