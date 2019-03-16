@@ -23,6 +23,7 @@
     border-color: transparent;
     background-color: transparent;
     transition: $transition-time;
+    margin: 0 3rem 3rem;
 
     img {
       max-width: 200px;
@@ -50,9 +51,13 @@
 @media(max-width:768px) {
   .container {
     .card {
+      margin: 0;
       img {
         max-width: 150px;
       }
     }
+  }
+  .container-hover {
+    padding: 1.2rem;
   }
 }
