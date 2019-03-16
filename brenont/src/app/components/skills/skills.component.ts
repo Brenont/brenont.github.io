@@ -11,18 +11,39 @@ export class SkillsComponent implements OnInit {
 
   constructor() {
     this.skills = [{
-      name: "HTML",
-      value: "65%",
-      color: "orange"
+      name: "Javascript",
+      value: "60%",
+      color: "#F7DF1E"
     },{
-      name: "HTML",
-      value: "25%",
+      name: "Angular",
+      value: "50%",
+      color: "#DB3035"
+    },
+    {
+      name: "Ionic",
+      value: "35%",
+      color: "#4887F7"
+    },
+    {
+      name: "Html",
+      value: "75%",
+      color: "#E44D26"
+    },
+    {
+      name: "Css",
+      value: "60%",
       color: "orange"
-    },{
-      name: "HTML",
+    },
+    {
+      name: "Sass",
+      value: "50%",
+      color: "#C76494"
+    },
+    {
+      name: "Jquery",
       value: "45%",
-      color: "orange"
-    }
+      color: "#1D74A7"
+    },
   ]
    }
 
