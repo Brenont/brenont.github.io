@@ -1,21 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import './theme/extends.scss';
+@import './theme/variables.scss';
 
 * {
   margin: 0;
   padding: 0;
+  transition: $transition-time;
+}
+
+body{
+  background-color: $bg-light !important;
+  color: $dark-color;
 }
 
 .container {
   @extend %flex-center;
 }
 
-.shadow{
-  box-shadow: #1d1d1d 1px 1px 3px;
+.shadow-bx{
+  box-shadow: #5f5656c7 2px 2px 20px;
 }
 
-.text-border{
+.title-border{
   width: 8%;
   min-width: 30px;
   max-width: 80px;

@@ -1,24 +1,56 @@
 @import '../../../styles.scss';
 
-.container{
-  .card{
+
+.container {
+  flex-direction: column;
+  background-color: $primary-color;
+  color: $light-color;
+  border-radius: 5px;
+  transition: $transition-time;
+  padding: 1rem;
+
+  .title-area {
+    width: 100%;
+
+    .title-border {
+      background-color: $light-color;
+    }
+  }
+
+  .card {
     max-width: 550px;
     @extend %flex-center;
-    // border-color: #0da394;
     border-color: transparent;
+    background-color: transparent;
+    transition: $transition-time;
 
-    img{
+    img {
       max-width: 200px;
       height: auto;
       border-radius: 100%;
     }
+
+    .text-hided {
+      transition: max-height ($transition-time + 1s);
+      overflow: hidden;
+      max-height: 0;
+    }
+
+    .card-text-hover {
+      max-height: 500px;
+    }
   }
 }
 
-@media(max-width:768px){
-  .container{
-    .card{
-      img{
+.container-hover {
+  padding: 2.5rem;
+  box-shadow: #3f3939c7 4px 4px 35px 1px;
+}
+
+@media(max-width:768px) {
+  .container {
+    .card {
+      img {
         max-width: 150px;
       }
     }

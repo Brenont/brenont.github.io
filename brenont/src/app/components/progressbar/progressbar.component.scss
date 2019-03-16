@@ -1,7 +1,10 @@
+@import '../../../styles.scss';
+
 .progress {
   height: 18px;
 
   .progress-bar{
     cursor: pointer;
+    background-color: $primary-color;
   }
 }

@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MeComponent implements OnInit {
 
+  public cardHover = false;
+
   constructor() { }
 
   ngOnInit() {
