@@ -22,10 +22,15 @@ body{
   box-shadow: #5f5656c7 2px 2px 20px;
 }
 
-.title-border{
-  width: 8%;
-  min-width: 30px;
-  max-width: 80px;
-  height: 4px;
-  background-color: #0da394;
+.title-area{
+  .title{
+    text-transform: uppercase;
+  }
+  .title-border{
+    width: 8%;
+    min-width: 30px;
+    max-width: 80px;
+    height: 4px;
+    background-color: #0da394;
+  }
 }

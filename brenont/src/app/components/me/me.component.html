@@ -1,22 +1,17 @@
 <section class="pt-4 pb-5">
 <div class="container shadow-bx" on-mouseover="cardHover=true" (mouseleave)="cardHover=false" [ngClass]="{'container-hover': cardHover}">
   <div class="title-area pl-3">
-    <h2>ABOUT ME</h2>
+    <h2 class="title">{{date.title}}</h2>
     <div class="title-border"></div>
   </div>
   <!-- <h1>Breno Nunes</h1> -->
   <div class="card pt-3">
     <img src="../../../assets/img/me.jpg" class="card-img-top shadow-bx" alt="Breno Nunes">
     <div class="card-body">
-      <h5 class="card-title">Breno Nunes</h5>
-      <p class="card-text">I'm an young Web Developer Front-End with desire to learn more, everytime.</p>
+      <h5 class="card-title">{{date.myName}}</h5>
+      <p class="card-text" *ngFor="let intro of date.intros">{{intro}}</p>
       <div class="text-hided" [ngClass]="{'card-text-hover': cardHover}">
-        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, illum nobis voluptas
-          earum cumque illo cum rem ab? Doloremque rerum voluptatum fugit saepe soluta laborum. Commodi beatae
-          voluptates eum in.</p>
-        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, illum nobis voluptas
-          earum cumque illo cum rem ab? Doloremque rerum voluptatum fugit saepe soluta laborum. Commodi beatae
-          voluptates eum in.</p>
+        <p class="card-text" *ngFor="let textExtra of date.textsExtra">{{textExtra}}</p>
       </div>
     </div>
   </div>

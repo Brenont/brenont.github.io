@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { DATE } from "../../../theme/db.js"
 
 @Component({
   selector: "app-skills",
@@ -6,39 +7,11 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./skills.component.scss"]
 })
 export class SkillsComponent implements OnInit {
+  public date = DATE.sections.skills;
   public skills: Array<any>;
 
   constructor() {
-    this.skills = [
-      {
-        name: "HTML",
-        value: "75%"
-      },
-      {
-        name: "CSS",
-        value: "70%"
-      },
-      {
-        name: "Javascript",
-        value: "65%"
-      },
-      {
-        name: "Angular",
-        value: "55%"
-      },
-      {
-        name: "Ionic",
-        value: "55%"
-      },
-      {
-        name: "Sass",
-        value: "60%"
-      },
-      {
-        name: "Jquery",
-        value: "45%"
-      },
-    ];
+    this.skills = this.date.skillsArr;
   }
 
   ngOnInit() {}
