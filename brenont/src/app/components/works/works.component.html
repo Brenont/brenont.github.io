@@ -4,4 +4,18 @@
     <h2 class="title">{{date.title}}</h2>
     <div class="title-border"></div>
   </div>
+  <div class="card-deck">
+      <div class="card p-3 m-3" *ngFor="let work of date.works">
+        <div class="card-img-container mt-3">
+          <img src="{{work.img}}" class="card-img-top" alt="...">
+        </div>
+          <div class="card-body">
+            <h5 class="card-title">{{work.title}}</h5>
+            <p class="card-text">{{work.info}}</p>
+            <p class="card-text mb-4 text-right"><small class="text-muted">{{work.date}}</small></p>
+            <a target="_blank" href="{{work.url}}" class="btn btn-primary">Ver Projeto</a>
+          </div>
+        </div>
+  </div>
+</section>
 </section>
