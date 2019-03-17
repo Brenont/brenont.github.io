@@ -2,9 +2,10 @@
 
 .progress {
   height: 18px;
+  box-shadow: #5f5656c7 0px 2px 9px;
+  cursor: pointer;
 
   .progress-bar{
-    cursor: pointer;
     background-color: $primary-color;
   }
 }

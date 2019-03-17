@@ -19,6 +19,10 @@ body{
   color: $dark-color;
 }
 
+.router-container{
+  padding-top: 90px !important;
+}
+
 .container {
   @extend %flex-center;
   flex-direction: column;

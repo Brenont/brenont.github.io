@@ -1,8 +1,7 @@
 <label for="Html" class="pl-3">{{name}}</label>
-<div class="progress">
+<div class="progress shadow-bx-bd" on-mouseover="progressOver=true"
+(mouseleave)="progressOver=false">
   <div class="progress-bar progress-bar-animated"
-  on-mouseover="progressOver=true"
-  (mouseleave)="progressOver=false"
   [ngClass]="{'progress-bar-striped': progressOver}"
   role="progressbar"
   [style.width]="value"

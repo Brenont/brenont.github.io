@@ -37,6 +37,10 @@ nav {
           color: #8795a1;
           cursor: pointer;
           text-transform: uppercase;
+
+          &:hover{
+            color: $primary-color;
+          }
         }
       }
     }
