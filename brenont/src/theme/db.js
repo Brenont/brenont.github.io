@@ -3,14 +3,13 @@ export const DATE = {
     aboutMe: {
       title: "About me",
       myName: "Breno Nunes",
-      intros : ["I'm an young Web Developer Front-End with desire to learn more, everytime."],
+      intros: ["I'm an young Web Developer Front-End with desire to learn more, everytime."],
       textsExtra: ["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, illum nobis volupta earum cumque illo cum rem ab Doloremque rerum voluptatum fug saepe soluta laborum. Commodi beatae voluptates eum in.", "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, illum nobis volupta earum cumque illo cum rem ab Doloremque rerum voluptatum fug saepe soluta laborum. Commodi beatae voluptates eum in."],
       mobileBttText: "Read more"
     },
     skills: {
       title: "Skills",
-      skillsArr: [
-        {
+      skillsArr: [{
           name: "HTML",
           value: "75%"
         },
@@ -24,7 +23,7 @@ export const DATE = {
         },
         {
           name: "Angular",
-          value: "55%"
+          value: "60%"
         },
         {
           name: "Ionic",
@@ -46,12 +45,11 @@ export const DATE = {
     },
     works: {
       title: "Works",
-      works: [
-        {
+      works: [{
           title: "Aplicação Web Make Collection",
           company: "Make Collection",
           img: "../../../assets/img/works/make.png",
-          info: "Site para a marca de roupas Make Collection recém criada",
+          info: "Site para a marca de roupas Make Collection recentemente criada",
           text: false,
           date: "Fevereiro, 2019",
           url: "http://makecollection.com.br/",
@@ -84,7 +82,30 @@ export const DATE = {
           url: "http://www.generalgoods.com.br/",
         },
       ]
+    },
+    contact: {
+      title: "Contact Me",
+      socials: [{
+          name: "Email",
+          user: "brenontavares@gmail.com",
+          url: "mailto:brenontavares@gmail.com",
+          img: "../../../assets/img/social/email.png",
+        },
+        {
+          name: "GitHub",
+          user: "Brenont",
+          url: "https://github.com/Brenont",
+          img: "../../../assets/img/social/github.png",
+        },
+        {
+          name: "LinkedIn",
+          user: "Breno Nunes",
+          url: "https://linkedin.com/in/brenont/",
+          img: "../../../assets/img/social/linkedin.png",
+        },
+      ]
     }
   }
-
 }
+
+export const PAGES = [{

@@ -1,0 +1,42 @@
+@import "../../../styles.scss";
+
+.icons-container {
+  @extend %flex-center;
+
+  a {
+    text-decoration: none;
+
+    .social-logo {
+      height: 100px;
+      width: auto;
+      transition: $transition-time;
+      margin: 1rem;
+      border-radius: 100%;
+      box-shadow: #0c635af0 0px 0px 11px;
+    }
+  }
+}
+
+@media(min-width:768px) {
+  .icons-container {
+    a {
+      .social-logo {
+        &:hover {
+          height: 110px;
+          margin: 1rem 1.5rem;
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width:768px) {
+  .icons-container {
+    a {
+      .social-logo {
+        height: 50px;
+      }
+    }
+  }
+}

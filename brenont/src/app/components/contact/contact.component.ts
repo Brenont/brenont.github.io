@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DATE } from "../../../theme/db.js"
 
 @Component({
   selector: 'app-contact',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
+  public date = DATE.sections.contact;
 
   constructor() { }
 
