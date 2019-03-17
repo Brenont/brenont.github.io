@@ -109,3 +109,12 @@ export const DATE = {
 }
 
 export const PAGES = [{
+  name: DATE.sections.skills.title,
+  route: "#skills",
+}, {
+  name: DATE.sections.works.title,
+  route: "#works",
+}, {
+  name: DATE.sections.contact.title,
+  route: "#contact"
+}];
