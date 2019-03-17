@@ -9,6 +9,8 @@
     .card {
       min-width: 17.5rem;
       max-width: 19.5rem;
+      min-height: 454px;
+      transition: $transition-time;
 
       .card-img-container{
         @extend %flex-center;
@@ -18,12 +20,26 @@
 
         .card-img-top{
           @extend %flex-center;
-          max-height: 130px;
+          max-height: 110px;
           width: auto;
-          max-width: 230px;
+          max-width: 200px;
         }
       }
     }
   }
 }
+}
+
+@media(min-width: 768px) {
+  .container{
+    .content-child{
+    .card-deck {
+      .card {
+        &:hover{
+          margin: 28px !important
+          }
+        }
+      }
+    }
+  }
 }

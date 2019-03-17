@@ -50,4 +50,15 @@ body{
   box-shadow: #5f5656c7 2px 2px 20px;
 }
 
+@media(min-width: 768px) {
+  .only-mobile{
+    display: none;
+  }
+}
+
+@media(max-width: 767px) {
+  .only-desktop{
+    display: none;
+  }
+}
 

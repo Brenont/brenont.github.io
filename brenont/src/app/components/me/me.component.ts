@@ -16,4 +16,8 @@ export class MeComponent implements OnInit {
   ngOnInit() {
   }
 
+  toggleText() {
+    this.cardHover = !this.cardHover;
+  }
+
 }
