@@ -16,21 +16,33 @@ body{
 
 .container {
   @extend %flex-center;
+  flex-direction: column;
+  max-width: 700px;
+  padding: 0;
+
+  .content-child{
+    width: 100%;
+  }
+
+  .title-area{
+    width: 100%;
+
+    .title{
+      text-transform: uppercase;
+    }
+    .title-border{
+      width: 8%;
+      min-width: 30px;
+      max-width: 80px;
+      height: 4px;
+      background-color: #0da394;
+    }
+  }
+
 }
 
 .shadow-bx{
   box-shadow: #5f5656c7 2px 2px 20px;
 }
 
-.title-area{
-  .title{
-    text-transform: uppercase;
-  }
-  .title-border{
-    width: 8%;
-    min-width: 30px;
-    max-width: 80px;
-    height: 4px;
-    background-color: #0da394;
-  }
-}
+

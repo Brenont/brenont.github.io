@@ -2,6 +2,8 @@
 
 
 .container {
+
+  .content-child{
   flex-direction: column;
   background-color: $primary-color;
   color: $light-color;
@@ -42,6 +44,7 @@
     }
   }
 }
+}
 
 .container-hover {
   padding: 2.5rem;
@@ -50,14 +53,16 @@
 
 @media(max-width:768px) {
   .container {
-    .card {
-      margin: 0;
-      img {
-        max-width: 150px;
+    .content-child{
+      .card {
+        margin: 0;
+        img {
+          max-width: 150px;
+        }
       }
     }
-  }
-  .container-hover {
-    padding: 1rem;
+    .container-hover {
+      padding: 1rem;
+    }
   }
 }

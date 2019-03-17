@@ -1,11 +1,15 @@
-<section class="pt-4 pb-5">
-  <div class="title-area pb-3 pl-3">
-    <h2 class="title">{{date.title}}</h2>
-    <div class="title-border"></div>
-  </div>
+<section class="container pt-4 pb-5">
 
-  <div class="m-3" *ngFor="let skill of skills">
-    <app-progressbar name="{{skill.name}}" value="{{skill.value}}"></app-progressbar>
-  </div>
+  <section class="content-child">
+    <div class="title-area pb-3 pl-3">
+      <h2 class="title">{{date.title}}</h2>
+      <div class="title-border"></div>
+    </div>
+
+    <div class="m-3" *ngFor="let skill of skills">
+      <app-progressbar name="{{skill.name}}" value="{{skill.value}}"></app-progressbar>
+    </div>
+
+  </section>
 
 </section>

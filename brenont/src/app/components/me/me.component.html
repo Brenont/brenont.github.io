@@ -1,5 +1,5 @@
-<section class="pt-4 pb-5">
-<div class="container shadow-bx" on-mouseover="cardHover=true" (mouseleave)="cardHover=false" [ngClass]="{'container-hover': cardHover}">
+<section class="container pt-4 pb-5">
+<section class="content-child shadow-bx" on-mouseover="cardHover=true" (mouseleave)="cardHover=false" [ngClass]="{'container-hover': cardHover}">
   <div class="title-area pl-3">
     <h2 class="title">{{date.title}}</h2>
     <div class="title-border"></div>
@@ -7,7 +7,7 @@
   <!-- <h1>Breno Nunes</h1> -->
   <div class="card pt-3">
     <img src="../../../assets/img/me.jpg" class="card-img-top shadow-bx" alt="Breno Nunes">
-    <div class="card-body">
+    <div class="card-body p-0 pb-3 pt-5">
       <h5 class="card-title">{{date.myName}}</h5>
       <p class="card-text" *ngFor="let intro of date.intros">{{intro}}</p>
       <div class="text-hided" [ngClass]="{'card-text-hover': cardHover}">
@@ -15,5 +15,5 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 </section>
