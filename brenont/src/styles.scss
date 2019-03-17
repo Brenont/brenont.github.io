@@ -46,8 +46,12 @@ body{
 
 }
 
-.shadow-bx{
-  box-shadow: #5f5656c7 2px 2px 20px;
+.shadow-bx-lt{
+  box-shadow: 0 32px 64px hsla(0, 0%, 62%, 0.5);
+}
+
+.shadow-bx-bd{
+  box-shadow: #5f5656c7 1px 3px 20px;
 }
 
 @media(min-width: 768px) {

@@ -5,18 +5,17 @@
 
   .content-child{
     flex-direction: column;
-    background-color: $primary-color;
-    color: $light-color;
+    background-color: $bg-light;
+    // background-color: $primary-color;
+    // color: $light-color;
     border-radius: 5px;
     transition: $transition-time;
     padding: 1rem;
+    border: 2.5px solid $primary-color;
 
     .title-area {
       width: 100%;
 
-      .title-border {
-      background-color: $light-color;
-    }
   }
 
   .card {
@@ -34,6 +33,15 @@
     }
 
     .card-body{
+
+      .card-title{
+        font-size: 2rem;
+      }
+
+      .card-text{
+        font-size: 1.1rem;
+      }
+
       .read-btt{
         color: $dark-color;
         font-size: 19px;
