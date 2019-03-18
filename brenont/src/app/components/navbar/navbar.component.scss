@@ -9,6 +9,7 @@ nav {
   position: fixed;
   z-index: 10;
   background-color: $bg-light;
+  box-shadow: 0 32px 64px hsla(0,0%,62%,.25);
 
   .content-bar{
     max-width: 700px;
