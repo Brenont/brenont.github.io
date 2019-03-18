@@ -66,6 +66,18 @@
   }
 }
 
+.title-page-container{
+  width: 100%;
+
+  h1{
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  .flex-center{
+    justify-content: flex-start;
+  }
+}
 
 
 @media(max-width:768px) {
@@ -80,6 +92,12 @@
     }
     .container-hover {
       padding: 1rem;
+    }
+  }
+
+  .title-page-container{
+    h1{
+      font-size: 40px;
     }
   }
 }

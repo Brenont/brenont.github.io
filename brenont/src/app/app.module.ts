@@ -10,6 +10,7 @@ import { WorksComponent } from './components/works/works.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './containers/home/home.component';
 import { ProgressbarComponent } from './components/progressbar/progressbar.component';
+import { IconsSvgComponent } from './components/icons-svg/icons-svg.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProgressbarComponent } from './components/progressbar/progressbar.compo
     WorksComponent,
     ContactComponent,
     HomeComponent,
-    ProgressbarComponent
+    ProgressbarComponent,
+    IconsSvgComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,29 @@
+@import "../../../styles.scss";
+
+.container-icons {
+  @extend %flex-center;
+  margin: 0 !important;
+
+  .li-icon {
+    list-style-type: none;
+
+    .icon-svg {
+      text-decoration: none;
+      padding: 0 10px;
+
+
+      .fill-current {
+        width: 1.5rem;
+
+        &:hover path {
+          fill: $primary-color;
+        }
+
+        path {
+          fill: $dark-color;
+
+        }
+      }
+    }
+  }
+}

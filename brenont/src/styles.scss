@@ -23,6 +23,10 @@ body{
   padding-top: 90px !important;
 }
 
+.flex-center{
+  @extend %flex-center;
+}
+
 .container {
   @extend %flex-center;
   flex-direction: column;
