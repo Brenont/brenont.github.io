@@ -1,33 +1,26 @@
 export const DATE = {
   sections: {
     aboutMe: {
-      title: "About me",
+      title: "Sobre Mim",
       myName: "Breno Nunes",
-      intros: ["I'm an young Web Developer Front-End with desire to learn more, everytime."],
-      textsExtra: ["Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, illum nobis volupta earum cumque illo cum rem ab Doloremque rerum voluptatum fug saepe soluta laborum. Commodi beatae voluptates eum in.", "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, illum nobis volupta earum cumque illo cum rem ab Doloremque rerum voluptatum fug saepe soluta laborum. Commodi beatae voluptates eum in."],
-      mobileBttText: "Read more"
+      intros: ["Desenvolvedor Front-End em busca de conhecimento e experiência"],
+      textsExtra: ["Estudo desenvolvimento desde 2018. Estou em busca de uma oportunidade para por meus conhecimentos em prática e aprender cada vez mais."],
+      mobileBttText: "Leia Mais"
     },
     skills: {
-      title: "Skills",
-      skillsArr: [{
-          name: "HTML",
-          value: "75%"
-        },
-        {
-          name: "CSS",
-          value: "70%"
-        },
+      title: "Habilidades",
+      skillsArr: [
         {
           name: "Javascript",
           value: "65%"
         },
         {
-          name: "Angular",
-          value: "60%"
+          name: "React.js",
+          value: "50%"
         },
         {
-          name: "Ionic",
-          value: "55%"
+          name: "Angular",
+          value: "60%"
         },
         {
           name: "Sass",
@@ -38,21 +31,33 @@ export const DATE = {
           value: "65%"
         },
         {
-          name: "Jquery",
-          value: "45%"
+          name: "Ionic",
+          value: "55%"
         },
+        {
+          name: "HTML",
+          value: "75%"
+        },
+        {
+          name: "CSS",
+          value: "70%"
+        },
+        {
+          name: "Bootstrap",
+          value: "60%"
+        }
       ]
     },
     works: {
-      title: "Works",
+      title: "Portifólio",
       works: [{
-          title: "Aplicação Web Make Collection",
-          company: "Make Collection",
-          img: "../../../assets/img/works/make.png",
-          info: "Site para a marca de roupas Make Collection recentemente criada",
-          text: false,
-          date: "Fevereiro, 2019",
-          url: "http://makecollection.com.br/",
+          title: "Sport Friend",
+          company: "Estartando Devs",
+          img: "../../../assets/img/works/sport-friend.png",
+          info: "Plataforma (MVP) que tem o intuito de ser a ponte entre pessoas que queiram fazer alguma atividade em comum. Desenvolvido em React.js",
+          text: "Gerenciei a equipe do projeto e também fiz parte do desenvolvimento.",
+          date: "Dezembro, 2019",
+          url: "https://github.com/estartando-devs/sport-friend",
         },
         {
           title: "Agendamento Rede D'Or São Luiz",
@@ -84,7 +89,7 @@ export const DATE = {
       ]
     },
     contact: {
-      title: "Contact Me",
+      title: "Contate-Me",
       socials: [{
           name: "Email",
           user: "brenontavares@gmail.com",
