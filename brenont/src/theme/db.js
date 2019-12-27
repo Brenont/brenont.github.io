@@ -8,7 +8,7 @@ export const DATE = {
       mobileBttText: "Leia Mais"
     },
     skills: {
-      title: "Habilidades",
+      title: "Skills",
       skillsArr: [
         {
           name: "Javascript",
@@ -89,7 +89,7 @@ export const DATE = {
       ]
     },
     contact: {
-      title: "Contate-Me",
+      title: "Contato",
       socials: [{
           name: "Email",
           user: "brenontavares@gmail.com",
