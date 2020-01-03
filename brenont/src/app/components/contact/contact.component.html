@@ -2,12 +2,12 @@
   <section class="content-child">
 
     <div class="title-area pb-3 pl-3">
-      <h1 class="title">{{date.title}}</h1>
+      <h1 class="title">{{data.title}}</h1>
       <div class="title-border"></div>
     </div>
 
     <div class="icons-container pt-3">
-      <div *ngFor="let social of date.socials">
+      <div *ngFor="let social of data.socials">
         <a target="_blank" href="{{social.url}}">
             <img src="{{social.img}}" alt="{{social.name}}" class="social-logo">
         </a>

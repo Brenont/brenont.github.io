@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DATE } from "../../../theme/db.js"
+import { DATA } from "../../../theme/db.js"
 
 @Component({
   selector: 'app-me',
@@ -7,7 +7,7 @@ import { DATE } from "../../../theme/db.js"
   styleUrls: ['./me.component.scss']
 })
 export class MeComponent implements OnInit {
-  public date = DATE.sections.aboutMe;
+  public data = DATA.sections.aboutMe;
 
   public cardHover = false;
 

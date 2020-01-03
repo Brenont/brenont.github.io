@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DATE } from "../../../theme/db.js";
+import { DATA } from "../../../theme/db.js";
 
 @Component({
   selector: 'app-works',
@@ -8,7 +8,7 @@ import { DATE } from "../../../theme/db.js";
 })
 export class WorksComponent implements OnInit {
 
-  public date = DATE.sections.works;
+  public data = DATA.sections.works;
 
   constructor() { }
 

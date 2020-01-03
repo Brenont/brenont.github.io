@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { DATE } from "../../../theme/db.js"
+import { DATA } from "../../../theme/db.js"
 
 @Component({
   selector: "app-skills",
@@ -7,11 +7,11 @@ import { DATE } from "../../../theme/db.js"
   styleUrls: ["./skills.component.scss"]
 })
 export class SkillsComponent implements OnInit {
-  public date = DATE.sections.skills;
+  public data = DATA.sections.skills;
   public skills: Array<any>;
 
   constructor() {
-    this.skills = this.date.skillsArr;
+    this.skills = this.data.skillsArr;
   }
 
   ngOnInit() {}

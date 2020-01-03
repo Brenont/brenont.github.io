@@ -1,4 +1,4 @@
-export const DATE = {
+export const DATA = {
   sections: {
     aboutMe: {
       title: "Sobre Mim",
@@ -57,16 +57,25 @@ export const DATE = {
           info: "Plataforma (MVP) que tem o intuito de ser a ponte entre pessoas que queiram fazer alguma atividade em comum. Desenvolvido em React.js",
           text: "Gerenciei a equipe do projeto e também fiz parte do desenvolvimento.",
           date: "Dezembro, 2019",
-          url: "https://github.com/estartando-devs/sport-friend",
+          url: "https://sport-friend-1574096025701.web.app/",
         },
+        // {
+        //   title: "Agendamento Rede D'Or São Luiz",
+        //   company: "Rede D'Or São Luiz",
+        //   img: "../../../assets/img/works/rede-dor.png",
+        //   info: "Sistema de agendamento para a empresa Rede D'Or São Luiz em Angular 2+",
+        //   text: "Fiz parte da equipe de desenvolvimento responsável pelo front-end do sistema.",
+        //   date: "Novembro, 2018",
+        //   url: "https://servicos.rededor.com.br/",
+        // },
         {
-          title: "Agendamento Rede D'Or São Luiz",
-          company: "Rede D'Or São Luiz",
-          img: "../../../assets/img/works/rede-dor.png",
-          info: "Sistema de agendamento para a empresa Rede D'Or São Luiz em Angular 2+",
-          text: "Fiz parte da equipe de desenvolvimento responsável pelo front-end do sistema.",
-          date: "Novembro, 2018",
-          url: "https://servicos.rededor.com.br/",
+          title: "Site Make Collection",
+          company: "Make Collection",
+          img: "../../../assets/img/works/make.png",
+          info: "Site para a marca de roupas Make Collection. Desenvolvido com Javascript Vanilla",
+          text: "",
+          date: "Fevereiro, 2019",
+          url: "https://brenont.github.io/make-collection/",
         },
         {
           title: "Site Estartando Devs",
@@ -114,12 +123,12 @@ export const DATE = {
 }
 
 export const PAGES = [{
-  name: DATE.sections.skills.title,
+  name: DATA.sections.skills.title,
   route: "#skills",
 }, {
-  name: DATE.sections.works.title,
+  name: DATA.sections.works.title,
   route: "#works",
 }, {
-  name: DATE.sections.contact.title,
+  name: DATA.sections.contact.title,
   route: "#contact"
 }];

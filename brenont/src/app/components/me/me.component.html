@@ -12,17 +12,17 @@
 
 <section class="content-child shadow-bx-lt" on-mouseover="cardHover=true" (mouseleave)="cardHover=false" [ngClass]="{'container-hover': cardHover}">
   <div class="title-area pl-3">
-    <h2 class="title">{{date.title}}</h2>
+    <h2 class="title">{{data.title}}</h2>
     <div class="title-border"></div>
   </div>
   <!-- <h1>Breno Nunes</h1> -->
   <div class="card pt-3">
     <img src="../../../assets/img/me.jpg" class="card-img-top shadow-bx-lt" alt="Breno Nunes">
     <div class="card-body p-0 pb-3 pt-5">
-      <h5 class="card-title">{{date.myName}}</h5>
-      <p class="card-text" *ngFor="let intro of date.intros">{{intro}}</p>
+      <h5 class="card-title">{{data.myName}}</h5>
+      <p class="card-text" *ngFor="let intro of data.intros">{{intro}}</p>
       <div class="text-hided only-desktop" [ngClass]="{'card-text-hover': cardHover}">
-        <p class="card-text" *ngFor="let textExtra of date.textsExtra">{{textExtra}}</p>
+        <p class="card-text" *ngFor="let textExtra of data.textsExtra">{{textExtra}}</p>
       </div>
       <!-- <p class="read-btt only-mobile mt-1" *ngIf="!cardHover" (click)="toggleText()">Ler Mais</p> -->
       <!-- <button type="button" class="btn btn-dark" *ngIf="!cardHover">Ler Mais</button>

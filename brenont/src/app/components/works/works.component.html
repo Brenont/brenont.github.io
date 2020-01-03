@@ -1,18 +1,18 @@
 <section class="container pt-4 pb-5" id="works">
   <section class="content-child">
   <div class="title-area pb-3 pl-3">
-    <h1 class="title">{{date.title}}</h1>
+    <h1 class="title">{{data.title}}</h1>
     <div class="title-border"></div>
   </div>
   <div class="card-deck">
-      <div class="card shadow-bx-bd p-3 m-3" *ngFor="let work of date.works">
+      <div class="card shadow-bx-bd p-3 m-3" *ngFor="let work of data.works">
         <div class="card-img-container mt-3">
           <img src="{{work.img}}" class="card-img-top" alt="...">
         </div>
           <div class="card-body">
             <h5 class="card-title">{{work.title}}</h5>
             <p class="card-text mb-6">{{work.info}}</p>
-            <!-- <small class="card-text mb-4 text-right"><small class="text-muted">{{work.date}}</small></p> -->
+            <!-- <small class="card-text mb-4 text-right"><small class="text-muted">{{work.data}}</small></p> -->
             <a target="_blank" href="{{work.url}}" class="btn btn-primary">Ver Projeto</a>
           </div>
         </div>
