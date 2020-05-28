@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(149, 134, 194);
+  text-align: center;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+}
+
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+main div {
+  max-width: 500px;
+}
+
+main div h2 {
+  color: rgb(149, 134, 194);
+}
