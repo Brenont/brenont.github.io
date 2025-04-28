@@ -7,26 +7,26 @@ export interface contributionsInterface {
 
 export const contributionsUnsorted: contributionsInterface[] = [
   {
-    repo: "autogen",
+    repo: "plopjs-talk",
     contibutionDescription:
-      "Improved the gallery component to showcase the community work.",
-    repoOwner: "Microsoft",
-    link: "https://github.com/microsoft/autogen/pull/1445",
+      "Presentation - PlopJS to generate files, improving DX and avoiding waste of time on repetitive tasks",
+    repoOwner: "Breno Tavares",
+    link: "https://github.com/Brenont/plopjs-talk",
   },
   {
-    repo: "creativecommons",
+    repo: "react-native-mask-text",
     contibutionDescription:
-      "Closed Issue: Fixed navbar issue on the main website of creative common.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/738",
+      "Fixing error of controlled inputs value not updating",
+    repoOwner: "akinncar",
+    link: "https://github.com/akinncar/react-native-mask-text/pull/57",
   },
   {
-    repo: "creativecommons",
+    repo: "react-native-mask-text",
     contibutionDescription:
-      "Added section for 'Other Opportunities' on main page.",
-    repoOwner: "Creative Commons",
-    link: "https://github.com/creativecommons/creativecommons.github.io-source/pull/719",
-  },
+      "Improve open-source library documentation",
+    repoOwner: "akinncar",
+    link: "https://github.com/akinncar/react-native-mask-text/pull/42",
+  }
 ];
 
 export const featuredContributions: contributionsInterface[] =

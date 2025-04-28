@@ -15,7 +15,7 @@ import { featuredExperiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
 import { featuredSkills } from "@/config/skills";
 import { cn } from "@/lib/utils";
-import namanImg from "@/public/naman-img.jpg";
+import brenoImg from "@/public/breno-img.png";
 // import {
 //     Accordion,
 //     AccordionContent,
@@ -48,12 +48,12 @@ export default function IndexPage() {
                     </Link> */}
           {/* <div className="max-w-[16rem]"> */}
           <Image
-            src={namanImg}
+            src={brenoImg}
             height={100}
             width={100}
             sizes="100vw"
             className="bg-primary rounded-full mb-0 h-auto md:mb-2 w-[60%] max-w-[16rem] border-8 border-primary"
-            alt="naman-barkiya-img"
+            alt="breno-img"
           />
           {/* </div> */}
           <AnimatedText
@@ -61,14 +61,14 @@ export default function IndexPage() {
             delay={0.2}
             className="font-heading text-3xl sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Naman Barkiya
+            Breno Tavares
           </AnimatedText>
           <AnimatedText
             as="h3"
             delay={0.4}
             className="font-heading text-base sm:text-xl md:text-xl lg:text-2xl"
           >
-            Full Stack Developer
+            Software Engineer
           </AnimatedText>
           {/* <Accordion
                         type="single"

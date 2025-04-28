@@ -8,8 +8,8 @@ export type ValidSkills =
   | "MongoDB"
   | "Typescript"
   | "Javascript"
-  | "HTML 5"
-  | "CSS 3"
+  | "HTML"
+  | "CSS"
   | "React Native"
   | "Angular"
   | "Redux"
@@ -19,7 +19,12 @@ export type ValidSkills =
   | "AWS"
   | "Bootstrap"
   | "Google Auth"
-  | "MySQL";
+  | "MySQL"
+  | "Supabase"
+  | "SASS"
+  | "RxJS"
+  | "React Admin"
+  | "Styled Components";
 
 export type ValidCategory =
   | "Full Stack"

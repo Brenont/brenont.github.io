@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Norican } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import Link from "next/link";
 import { usePathname, useSelectedLayoutSegment } from "next/navigation";
 import * as React from "react";
@@ -16,7 +16,7 @@ interface MainNavProps {
   children?: React.ReactNode;
 }
 
-const norican = Norican({
+const norican = Quicksand({
   weight: ["400"],
   style: ["normal"],
   subsets: ["latin"],
