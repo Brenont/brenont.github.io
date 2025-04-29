@@ -10,7 +10,8 @@ A modern and easy-to-use **Next.js 14 portfolio template** designed for develope
 
 Get started with this template and showcase your work effortlessly! 🚀
 
-https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/f93bf5ca-c2bd-4fe5-a413-1050ebf6cf78
+<img width="1902" alt="image" src="https://github.com/user-attachments/assets/41470db7-132e-459a-9b39-4f8bc3e6ca32" />
+
 
 ## Components
 
@@ -41,11 +42,6 @@ To get started with your own Next.js 14 Portfolio Website, follow these steps:
 4. Open [http://localhost:3000](http://localhost:3000) in your web browser to see the website in action.
 
 Now, you're all set to customize and populate your portfolio website with your professional and personal content. Enjoy showcasing your work!
-
-## Insights
-
-![Screenshot 2024-02-02 at 3 45 16 AM](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/3fb9c94d-9d99-4e98-92ea-14aadc91b568)
-![Screenshot 2024-02-02 at 3 47 49 AM](https://github.com/namanbarkiya/minimal-next-portfolio/assets/82203888/7cfe28cc-b619-4199-9dab-1cf16723b86d)
 
 ## Learn More
 
