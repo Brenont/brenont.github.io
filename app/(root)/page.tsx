@@ -133,6 +133,21 @@ export default function IndexPage() {
                 <Icons.contact className="w-4 h-4 mr-2" /> Contact
               </Link>
             </AnimatedText>
+            <AnimatedText delay={0.8}>
+              <a
+                href="/BrenoTavaresCV.pdf"
+                download="BrenoTavaresCV.pdf"
+                rel="noreferrer"
+                className={cn(
+                  buttonVariants({
+                    variant: "outline",
+                    size: "lg",
+                  })
+                )}
+              >
+                <Icons.page className="w-4 h-4 mr-2" /> Download CV
+              </a>
+            </AnimatedText>
           </div>
           <AnimatedText delay={1.2}>
             <Icons.chevronDown className="h-6 w-6 mt-10" />
