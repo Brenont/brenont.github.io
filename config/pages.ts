@@ -38,14 +38,14 @@ export const pagesConfig: PagesConfig = {
       description: "Breno Tavares's experience in building web applications.",
     },
   },
-  contact: {
-    title: "Contact",
-    description: "Let's connect and explore collaborations.",
-    metadata: {
-      title: "Contact",
-      description: "Contact Breno Tavares.",
-    },
-  },
+  // contact: {
+  //   title: "Contact",
+  //   description: "Let's connect and explore collaborations.",
+  //   metadata: {
+  //     title: "Contact",
+  //     description: "Contact Breno Tavares.",
+  //   },
+  // },
   contributions: {
     title: "Contributions",
     description: "Open-source contributions and community involvement.",
