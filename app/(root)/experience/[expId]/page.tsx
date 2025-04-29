@@ -20,6 +20,10 @@ interface ExperiencePageProps {
 
 const githubUsername = "brenont";
 
+export const generateStaticParams = () => {
+  
+}
+
 export default function Experience({ params }: ExperiencePageProps) {
   let exp = Experiences.find((val) => val.id === params.expId);
   if (!exp) {
