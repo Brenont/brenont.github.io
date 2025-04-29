@@ -25,6 +25,7 @@ export interface ExperienceInterface {
   companyLogoImg: any;
   descriptionDetails: DescriptionDetailsInterface;
   pagesInfoArr: PagesInfoInterface[];
+  pageInfoParagraph?: string;
 }
 
 export const Experiences: ExperienceInterface[] = [
@@ -48,45 +49,34 @@ export const Experiences: ExperienceInterface[] = [
     endDate: new Date(),
     companyLogoImg: "/experience/featoubeat/logo.svg",
     pagesInfoArr: [
-      // {
-      //   title: "Landing Page",
-      //   description:
-      //     "Modern and responsive landing page showcasing company services and portfolio",
-      //   imgArr: [],
-      // },
-      // {
-      //   title: "Custom PDF Reader and optimizer",
-      //   description:
-      //     "Specialized PDF viewer with optimization features for improved performance and user experience",
-      //   imgArr: ["/experience/builtdesign/pdf_opt.webp"],
-      // },
-      // {
-      //   title: "Clients Dashboard",
-      //   description:
-      //     "Comprehensive client portal with project tracking, document management, and communication tools",
-      //   imgArr: [
-      //     // "/experience/builtdesign/cli_dashboard_1.webp",
-      //     // "/experience/builtdesign/cli_dashboard_2.webp",
-      //     // "/experience/builtdesign/cli_dashboard_3.webp",
-      //   ],
-      // },
-      // {
-      //   title: "Admin Dashboard",
-      //   description:
-      //     "Powerful administrative interface for managing users, projects, and system settings",
-      //   imgArr: ["/experience/builtdesign/logo.png"],
-      // },
+      {
+        title: "UI Screen - Home",
+        description:
+          "",
+        imgArr: ["/experience/featoubeat/home-screen.png"],
+      },
+      {
+        title: "UI Screen - Search",
+        description:
+          "",
+        imgArr: ["/experience/featoubeat/search-screen.png"],
+      },
+      {
+        title: "UI Screen - Offer Chat",
+        description:
+          "",
+        imgArr: ["/experience/featoubeat/chat-screen.png"],
+      },
     ],
     descriptionDetails: {
       paragraphs: [
-        // "During my time at Builtdesign, I had the opportunity to work on a dynamic and user-focused project that involved designing and optimizing a website catering to a user base of over 4000 individuals. My role as a full-stack web developer was to ensure a seamless experience for users by creating an efficient and maintainable platform.",
-        // "I collaborated closely with the product team to integrate cutting-edge features, employing technologies like Next.js and React with TypeScript for captivating front-end experiences. Additionally, I contributed significantly to the backend by utilizing Node.js, MongoDB, and GraphQL to design robust APIs and ensure smooth system functionality.",
-        // "This experience allowed me to enhance my skills in various areas of web development and deliver a high-quality product. I gained proficiency in front-end technologies such as Material UI and Tailwind CSS, as well as backend technologies including Nest.js and MySQL. The project's success in catering to a large user base and providing an intuitive user interface has further motivated me to pursue excellence in web development.",
+        "Feat ou Beat is a platform that aims to revolutionize the artistic connection, allowing artists to connect and collaborate with artists from different places and sizes with security and confidence. In addition, artists will have a professional profile on the platform, creating a reputation that can take them to another level in their careers.",
+        "The launch is scheduled for the second half of 2025 in Brazil only. Feat ou Beat has music industry partners in Brazil where we will get the most user traffic, so the launch is a strategic decision so after that we can expand with a more solid proof of concept."
       ],
       bullets: [
-        "Connecng the business side with the dev team.",
-        "Building scalable web applicaons for arst's networks.",
-        "Definion of technologies and project structure to have a scalable project.",
+        "Connecting the business side with the dev team.",
+        "Building scalable web application for artist's networks.",
+        "Definition of technologies and project structure to have a scalable project.",
       ],
     },
   },
@@ -119,7 +109,7 @@ export const Experiences: ExperienceInterface[] = [
     id: "branding-brand",
     companyName: "Branding Brand",
     type: "Professional",
-    category: ["Mobile Dev", "Full Stack"],
+    category: ["Mobile Dev"],
     shortDescription:
       "Developed and maintained large-scale React Native and Node.js apps, improving accessibility and UX for clients across the U.S.",
     websiteLink: "",
@@ -130,28 +120,23 @@ export const Experiences: ExperienceInterface[] = [
     pagesInfoArr: [
       {
         title: "Country Road App",
-        description: "iOS/Android app for Australian fashion brand Country Road.",
+        description: "iOS/Android app for Australian fashion brand Country Road. I worked on listing products and user management features",
         imgArr: [
-          // "https://apps.apple.com/au/app/country-road-since-1974/id1631154696",
-          // "https://play.google.com/store/apps/details?id=com.countryroad.mobileapp"
+          "/experience/brandingbrand/countryroadapp.png"
         ],
       },
       {
         title: "BJ's Wholesale Club App",
         description: "Large-scale shopping app for BJ's Wholesale Club.",
         imgArr: [
-          // "https://apps.apple.com/us/app/bjs-wholesale-club/id1287596508",
-          // "https://play.google.com/store/apps/details?id=com.brandingbrand.reactnative.and.bjs"
+          "/experience/brandingbrand/bjs.png"
         ],
       },
       {
         title: "Related Connect and Related 360 Life Apps",
         description: "Commercial and residential apps for Related Companies, Hudson Yards NY.",
         imgArr: [
-          // "https://apps.apple.com/us/app/related-connect/id1436638900",
-          // "https://play.google.com/store/apps/details?id=com.relatedcompanies.relatedconnect",
-          // "https://apps.apple.com/us/app/related-360-life/id1559044467",
-          // "https://play.google.com/store/apps/details?id=com.relatedcompanies.relatedoffice"
+          "/experience/brandingbrand/related.png"
         ],
       },
     ],
